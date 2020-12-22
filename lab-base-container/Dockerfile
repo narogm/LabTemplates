@@ -14,9 +14,6 @@ ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 EXPOSE 22
 
-#deps
-RUN apt-get update && apt-get install -y apt-transport-https
-
 #setup gui and xrdp
 ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /scripts
