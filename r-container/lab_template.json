@@ -1,4 +1,4 @@
 {
     "code": "RSTUDIO",
-    "provider": "Virtualbox"
+    "provider": "Docker"
 }
