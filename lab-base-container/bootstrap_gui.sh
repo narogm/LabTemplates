@@ -7,7 +7,6 @@ apt-get install -y ca-certificates \
   firefox \
   less \
   locales \
-  pepperflashplugin-nonfree \
   uuid-runtime \
   vim \
   wget \
@@ -22,8 +21,7 @@ apt-get install -y ca-certificates \
   xfce4-terminal \
   xfce4-xkb-plugin \
   xorgxrdp \
-  xprintidle \
-  xrdp
+  xprintidle 
 
 echo "setting up xrdp"
 
